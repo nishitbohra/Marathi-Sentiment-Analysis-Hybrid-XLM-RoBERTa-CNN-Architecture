@@ -271,16 +271,6 @@ For questions or collaboration:
    - Check Python version (3.10+)
    - Verify virtual environment activation
 
-## 📖 Citation
-
-If you use this code or dataset in your research, please cite:
-
-```bibtex
-@misc{mahasent2025,
-  title={Marathi Sentiment Analysis with Hybrid Deep Learning},
-  author={Your Team},
-  year={2025}
-}
 ```
 
 ---
