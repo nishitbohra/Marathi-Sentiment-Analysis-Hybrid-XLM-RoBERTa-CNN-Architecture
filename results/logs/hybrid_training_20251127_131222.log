@@ -1,0 +1,32 @@
+[2025-11-27 13:12:22] Experiment: hybrid_training
+[2025-11-27 13:12:22] Started at: 2025-11-27 13:12:22
+[2025-11-27 13:12:22] ======================================================================
+[2025-11-27 13:12:22] Configuration saved to: results/logs\hybrid_training_config.json
+[2025-12-01 17:42:45] TRAIN Metrics - loss: 0.7566, accuracy: 0.6599
+[2025-12-01 17:42:45] VAL Metrics - loss: 0.6653, accuracy: 0.7392
+[2025-12-02 00:25:03] TRAIN Metrics - loss: 0.6162, accuracy: 0.7417
+[2025-12-02 00:25:03] VAL Metrics - loss: 0.5611, accuracy: 0.7640
+[2025-12-02 06:37:21] TRAIN Metrics - loss: 0.5285, accuracy: 0.7818
+[2025-12-02 06:37:21] VAL Metrics - loss: 0.5849, accuracy: 0.7527
+[2025-12-02 12:39:21] TRAIN Metrics - loss: 0.4497, accuracy: 0.8183
+[2025-12-02 12:39:21] VAL Metrics - loss: 0.5887, accuracy: 0.7745
+[2025-12-02 19:18:53] TRAIN Metrics - loss: 0.3716, accuracy: 0.8494
+[2025-12-02 19:18:53] VAL Metrics - loss: 0.5900, accuracy: 0.7762
+[2025-12-03 04:39:02] TRAIN Metrics - loss: 0.2900, accuracy: 0.8873
+[2025-12-03 04:39:02] VAL Metrics - loss: 0.6710, accuracy: 0.7800
+[2025-12-03 13:57:32] TRAIN Metrics - loss: 0.2144, accuracy: 0.9187
+[2025-12-03 13:57:32] VAL Metrics - loss: 0.7298, accuracy: 0.7800
+[2025-12-04 01:17:14] TRAIN Metrics - loss: 0.1522, accuracy: 0.9439
+[2025-12-04 01:17:14] VAL Metrics - loss: 0.8403, accuracy: 0.7847
+[2025-12-04 07:24:19] TRAIN Metrics - loss: 0.1030, accuracy: 0.9636
+[2025-12-04 07:24:19] VAL Metrics - loss: 1.0213, accuracy: 0.7817
+[2025-12-04 14:18:07] TRAIN Metrics - loss: 0.0722, accuracy: 0.9763
+[2025-12-04 14:18:07] VAL Metrics - loss: 1.1501, accuracy: 0.7822
+[2025-12-04 14:36:41] 
+======================================================================
+[2025-12-04 14:36:41] FINAL RESULTS
+[2025-12-04 14:36:41] ======================================================================
+[2025-12-04 14:36:41]   test_acc: 0.7825
+[2025-12-04 14:36:41]   test_f1: 0.7828
+[2025-12-04 14:36:41] ======================================================================
+[2025-12-04 14:36:41] Experiment completed at: 2025-12-04 14:36:41
