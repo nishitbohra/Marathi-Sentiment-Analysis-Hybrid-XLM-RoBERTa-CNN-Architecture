@@ -2,7 +2,7 @@
 
 Complete sentiment analysis system for Marathi social media text using a hybrid XLM-RoBERTa + CNN architecture.
 
-## 📊 Project Overview
+##  Project Overview
 
 This project implements a comprehensive sentiment analysis system for the **MahaSent dataset** (60,864 Marathi text samples) using multiple approaches:
 
@@ -18,7 +18,7 @@ This project implements a comprehensive sentiment analysis system for the **Maha
 - **Language**: Marathi (Devanagari script)
 - **Domain**: Political and social media commentary
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Hybrid Model Components
 1. **Contextual Features**: XLM-RoBERTa base (768-dim embeddings)
@@ -27,7 +27,7 @@ This project implements a comprehensive sentiment analysis system for the **Maha
 4. **Feature Fusion**: Concatenate pooled + CNN (1024-dim)
 5. **Classification**: Dense layers (1024→512→3) with Dropout(0.3)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 marathi-sentiment/
@@ -60,7 +60,7 @@ marathi-sentiment/
 └── README.md                      # This file
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Installation
 
@@ -126,7 +126,7 @@ model = HybridSentimentModel(config).to(config.device)
 # Train model (see src/train.py for full training loop)
 ```
 
-## 📊 Hyperparameters
+##  Hyperparameters
 
 ### Hybrid Model
 - **PLM**: `xlm-roberta-base`
@@ -145,14 +145,14 @@ model = HybridSentimentModel(config).to(config.device)
 - **Logistic Regression**: Max iter=1000, balanced weights
 - **KNN**: k=5
 
-## 📈 Expected Results
+##  Expected Results
 
 - **Hybrid Model**: >80% accuracy on test set
 - **Improvement**: 3-5% F1-score gain over baselines
 - **Inference Time**: <50ms per sample
 - **Model Size**: ~500MB (XLM-RoBERTa base)
 
-## 🔧 Configuration
+##  Configuration
 
 All hyperparameters are managed through `src/config.py`:
 
@@ -165,7 +165,7 @@ config.num_epochs = 15
 config.learning_rate_hybrid = 5e-5
 ```
 
-## 📝 Label Mapping
+##  Label Mapping
 
 **Important**: The dataset uses labels {-1, 0, 1}, which are automatically converted to {0, 1, 2} for PyTorch:
 
@@ -175,7 +175,7 @@ config.learning_rate_hybrid = 5e-5
 
 This mapping is handled automatically in `data_loader.py`.
 
-## 🎯 Evaluation Metrics
+##  Evaluation Metrics
 
 The system calculates:
 - **Overall**: Accuracy, Macro/Weighted Precision/Recall/F1
@@ -183,7 +183,7 @@ The system calculates:
 - **Confusion Matrix**: 3×3 matrix
 - **Error Analysis**: Misclassification patterns
 
-## 📊 Visualization
+##  Visualization
 
 The project generates:
 1. Training history (loss + accuracy curves)
@@ -194,19 +194,19 @@ The project generates:
 
 All figures are saved to `results/figures/`.
 
-## 🛠️ Key Features
+##  Key Features
 
-- ✅ **Complete Pipeline**: From data loading to evaluation
-- ✅ **Multiple Baselines**: Traditional ML + Deep Learning
-- ✅ **Hybrid Architecture**: Novel XLM-RoBERTa + CNN combination
-- ✅ **Early Stopping**: Prevents overfitting
-- ✅ **Comprehensive Metrics**: Multiple evaluation perspectives
-- ✅ **Experiment Tracking**: Automatic logging
-- ✅ **Visualization**: Publication-ready plots
-- ✅ **Type Hints**: Full type annotation throughout
-- ✅ **Documentation**: Detailed docstrings
+-  **Complete Pipeline**: From data loading to evaluation
+-  **Multiple Baselines**: Traditional ML + Deep Learning
+-  **Hybrid Architecture**: Novel XLM-RoBERTa + CNN combination
+-  **Early Stopping**: Prevents overfitting
+-  **Comprehensive Metrics**: Multiple evaluation perspectives
+-  **Experiment Tracking**: Automatic logging
+-  **Visualization**: Publication-ready plots
+-  **Type Hints**: Full type annotation throughout
+-  **Documentation**: Detailed docstrings
 
-## 📚 Dependencies
+##  Dependencies
 
 Main dependencies:
 - `torch>=2.0.0`
@@ -220,7 +220,7 @@ Main dependencies:
 
 See `requirements.txt` for complete list.
 
-## 🤝 Contributing
+## Contributing
 
 This is a research project. Feel free to:
 - Report issues
@@ -228,21 +228,21 @@ This is a research project. Feel free to:
 - Extend the architecture
 - Add new baselines
 
-## 📄 License
+##  License
 
 This project is for educational and research purposes.
 
-## 👥 Authors
+##  Authors
 
 Sentiment Analysis Research Team
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **XLM-RoBERTa**: Facebook AI Research
 - **MahaSent Dataset**: Original dataset creators
 - **Transformers Library**: Hugging Face
 
-## 📞 Contact
+##  Contact
 
 For questions or collaboration:
 - Open an issue in the repository
@@ -252,7 +252,7 @@ For questions or collaboration:
 
 **Note**: Ensure you have sufficient GPU memory (at least 8GB) for training the hybrid model. CPU training is supported but significantly slower.
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -274,5 +274,3 @@ For questions or collaboration:
 ```
 
 ---
-
-**Last Updated**: November 27, 2025
